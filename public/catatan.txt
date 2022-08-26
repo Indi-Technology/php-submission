@@ -1,0 +1,12 @@
+<!-- perhatikan penulisan huruf kecil dan besar! -->
+
+<!-- Untuk menghindari kesalahan atau ambigu ketika memanggil file/folder di dalam file -->
+Options -Multiviews
+
+RewriteEngine On
+<!-- untuk menghindari adanya penamaan yang sama pada models/controllers -->
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+<!--  membaca apapun yang ditulis di URL atau slash (/) -->
+RewriteRule ^(.*)$ index.php?url=$1 [L]
