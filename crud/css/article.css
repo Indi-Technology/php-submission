@@ -1,0 +1,128 @@
+.container {
+    padding: 2rem;
+    justify-content: center;
+}
+
+.container.abt {
+    padding: 4rem;
+}
+
+.card {
+    margin-top: 2%;
+    background-color: #F6F1EA;
+    border: 0px;
+    border-radius: 20px;
+    padding: 2% 10%;
+}
+
+.card-sm {
+    margin: 1%;
+    background-color: #394447;
+    color: #F6F1EA;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.form-group {
+    max-width: 1000px;
+    min-width: 300px;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.form-control.content {
+    height: 300px;
+}
+
+.btn-sq {
+    border-radius: 10px;
+    background-color: #638B82;
+    border-color: #638B82;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    padding: 1rem;
+    margin: 1%;
+}
+
+.btn-sq:hover {
+    background-color: #51746c;
+    border-color: #51746c;
+    color: #fff;
+}
+
+.btn-sq.sec {
+    border-radius: 10px;
+    background-color: #939393;
+    border-color: #939393;
+    font-weight: bold;
+    width: 200px;
+    padding: 1rem;
+    margin: 1%;
+}
+
+.btn-sq.sec:hover {
+    background-color: #6d6d6d;
+    border-color: #6d6d6d;
+    color: #fff;
+}
+
+
+.btn-oval {
+    border-radius: 40px;
+    background-color: #638B82;
+    border-color: #638B82;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    padding: 1rem;
+    margin: 1%;
+}
+
+.btn-oval:hover {
+    background-color: #51746c;
+    border-color: #51746c;
+    color: #fff;
+}
+
+.btn-oval.danger {
+    border-radius: 40px;
+    background-color: #FF5F2D;
+    border-color: #FF5F2D;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    padding: 1rem;
+    margin: 1%;
+}
+
+.btn-oval.danger:hover {
+    background-color: #d85128;
+    border-color: #d85128;
+    color: #fff;
+}
+
+.card-link:link {
+    color: #F6F1EA;
+    background-color: transparent;
+    text-decoration: none;
+}
+.card-link:hover {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    margin: 3%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.photo {
+    margin: 5%;
+    border-radius: 50%;
+    max-width: 400px;
+    height: auto;
+}
