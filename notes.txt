@@ -1,0 +1,3 @@
+Go to: http://localhost/kblog/admin.php
+
+For modify articles.
